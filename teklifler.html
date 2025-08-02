@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teklif Listesi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #e3f2fd, #e8f5e9);
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    header {
+      background-color: #1976d2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    h2 {
+      text-align: center;
+      color: #2e7d32;
+    }
+    .offer {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 20px;
+      background-color: #f9fbe7;
+    }
+    .offer h3 {
+      margin: 0 0 10px 0;
+      color: #1b5e20;
+    }
+    .offer p {
+      margin: 5px 0;
+      color: #444;
+    }
+    .offer button {
+      margin-top: 10px;
+      padding: 10px;
+      background: #00796b;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .offer button:hover {
+      background: #004d40;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gelen Teklifler</h1>
+  </header>
+
+  <div class="container">
+    <h2>Otomatik Teklif Listesi</h2>
+
+    <div class="offer">
+      <h3>Kalıpçı A</h3>
+      <p>Teklif: 175,000 TL</p>
+      <p>Yorum: Kaliteli işçilik, zamanında teslim.</p>
+      <button onclick="alert('Kalıpçı A ile iletişime geçiliyor...')">İletişime Geç</button>
+    </div>
+
+    <div class="offer">
+      <h3>Kalıpçı B</h3>
+      <p>Teklif: 160,000 TL</p>
+      <p>Yorum: Uygun fiyat, orta kalite.</p>
+      <button onclick="alert('Kalıpçı B ile iletişime geçiliyor...')">İletişime Geç</button>
+    </div>
+
+    <div class="offer">
+      <h3>Kalıpçı C</h3>
+      <p>Teklif: 185,000 TL</p>
+      <p>Yorum: Premium kalite, hızlı üretim.</p>
+      <button onclick="alert('Kalıpçı C ile iletişime geçiliyor...')">İletişime Geç</button>
+    </div>
+
+  </div>
+  <footer>
+    &copy; 2025 Kalıp Teklif Sistemi
+  </footer>
+</body>
+</html>
